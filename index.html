@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#btn1").click(function(){
+        $("#box").animate({height: "300px"});
+    });
+    $("#btn2").click(function(){
+        $("#box").animate({height: "100px"});
+    });
+});
+</script>
 <body>
+
+<button id="btn1">Animate height</button>
+<button id="btn2">Reset height</button>
 <h1>Hello World</h1>
 <p>I'm hosted with SHITBUH Pages.</p>
   <a href='mypage.html'>Check out this other sick shit</a>
